@@ -8,7 +8,7 @@
 데이터 프레임에서 개수를 확인할 때는 
 
 ### value_counts()
-\\\python
+```python
 menu = df['menu'].value_counts()
 
 menu
