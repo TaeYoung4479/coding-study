@@ -10,8 +10,9 @@
 ### value_counts()
 ```python
 menu = df['menu'].value_counts()
-
 menu
+
+```python
 아메리카노     3
 딸기라떼      1
 카페라떼      1
