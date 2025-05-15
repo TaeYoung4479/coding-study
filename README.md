@@ -11,7 +11,7 @@
 ```python
 menu = df['menu'].value_counts()
 menu
-
+```
 ```python
 아메리카노     3
 딸기라떼      1
@@ -25,3 +25,4 @@ menu
 토피넛 라떼    1
 카페 라떼     1
 Name: count, dtype: int64
+```
