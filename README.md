@@ -3,12 +3,12 @@
 
 2025/05/15 시작
 
-#파이썬 기초
+## 파이썬 기초
 
-'''
 데이터 프레임에서 개수를 확인할 때는 
-value_counts()
-ex) 
+
+### value_counts()
+'''python
 menu = df['menu'].value_counts()
 
 menu
@@ -24,4 +24,3 @@ menu
 토피넛 라떼    1
 카페 라떼     1
 Name: count, dtype: int64
-'''
