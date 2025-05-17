@@ -26,3 +26,15 @@ menu
 카페 라떼     1
 Name: count, dtype: int64
 ```
+
+### pandas 문법
+
+2025/05/17 
+
+-> Series는 1차원 데이터, DataFrame은 2차원 데이터
+-> 데이터프레임에 대한 크기 확인 -> df.shape()
+-> 데이터프레임 기술통계량 확인 -> df.describe()
+
+'''python
+
+'''
