@@ -27,8 +27,6 @@ menu
 Name: count, dtype: int64
 ```
 
-2025/05/17 
-
 -> Series는 1차원 데이터, DataFrame은 2차원 데이터
 
 -> 데이터프레임에 대한 크기 확인 -> df.shape()
@@ -36,6 +34,14 @@ Name: count, dtype: int64
 -> 데이터프레임 기술통계량 확인 -> df.describe()
 
 
+2025/05/17
+
+### 데이터프레임 인덱싱 및 슬라이싱
+
+특정 열선택 -> df['col_name'] / df.col_name
+여러 열 선택 가능 -> df[['col_name_1','col_name_2']]
+
+특정 행 선택 -> df.loc[행시작:행 끝, ['열이름1', '열이름2']]
 '''python
 
 '''
