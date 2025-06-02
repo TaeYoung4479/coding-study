@@ -18,6 +18,8 @@ print(df.loc[25, ['age']])
 
 #조건으로 행 선택
 print(df.loc[df['income'] >= 50000])
+print(df.groupby(df['income'] >= 50000))
+
 print(df.loc[df['income'] >= 50000], df[['age', 'income']])
 print(df.loc[df['age'] < 30, ['age']])
 
@@ -53,4 +55,3 @@ print(df.iloc[:,0:4])
 
 #1~2번째 까지 열의 1, 3행 출력
 print(df.iloc[[1 ,3], 0:2])
-
