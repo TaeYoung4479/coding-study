@@ -11,7 +11,6 @@ print(df.shape)
 # 데이터프레임 인덱싱 및 슬라이싱
 
 df[['age', 'income']]
-
 df.loc[10:15, ['age', 'income']]
 df.loc[:, ['age']]
 print(df.loc[25, ['age']])
